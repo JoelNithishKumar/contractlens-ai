@@ -262,8 +262,8 @@ contractlens-ai/
 ### 1. Clone the repository
 
 git clone https://github.com/YOUR_USERNAME/contractlens-ai.git
-```cd contractlens-ai
-```
+cd contractlens-ai
+
 
 ### 2. Create and activate a virtual environment
 #### Windows PowerShell
