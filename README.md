@@ -262,34 +262,38 @@ contractlens-ai/
 ### 1. Clone the repository
 
 git clone https://github.com/YOUR_USERNAME/contractlens-ai.git
-cd contractlens-ai
+```cd contractlens-ai
+```
 
 ### 2. Create and activate a virtual environment
-Windows PowerShell
+#### Windows PowerShell
 
-python3 -m venv .venv
-source .venv/bin/activate
+```python3 -m venv .venv
+   source .venv/bin/activate
+```
 
-macOS / Linux
+#### macOS / Linux
 
-python3 -m venv .venv
-source .venv/bin/activate
+```python3 -m venv .venv
+   source .venv/bin/activate
+```
 
 ### 3. Install dependencies
 
-pip install -r requirements.txt
+```pip install -r requirements.txt
+```
 
 ### 4. Add your OpenAI API key
 
-## Create a .env file in the project root:
+#### Create a .env file in the project root:
 
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_MODEL=gpt-5
 
 ### 5. Run the Streamlit app
 
-python -m streamlit run app.py
-
+```python -m streamlit run app.py
+```
 
 ## Recommended Demo Setup
 
