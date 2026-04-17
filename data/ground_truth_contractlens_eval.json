@@ -1,0 +1,153 @@
+{
+  "01_ONeill_Standard_Subcontract_Agreement.docx": {
+    "document_type": "standard_subcontract_agreement",
+    "party_name": "O\u2019Neill Contractors, Inc.",
+    "project_name": "North Shore Federal Operations Center \u2013 Envelope & MEP Upgrades",
+    "pricing_model": "lump_sum",
+    "contract_value": 286400,
+    "payment_terms": "pay-when-paid; within 45 days after approved pay application",
+    "retainage": "10%",
+    "warranty_term": "2 years",
+    "auto_limit": "$1,000,000",
+    "umbrella_limit": "$5,000,000",
+    "requires_completed_ops_ai": true,
+    "change_order_method": "written approval required before extra work",
+    "risk_flags": []
+  },
+  "02_ABC_Roofing_Proposal_and_Terms.docx": {
+    "document_type": "vendor_proposal_terms",
+    "party_name": "ABC Roofing & Sheet Metal, LLC",
+    "project_name": "North Shore Federal Operations Center \u2013 Envelope & MEP Upgrades",
+    "pricing_model": "lump_sum_with_exclusions_and_alternates",
+    "contract_value": 271900,
+    "payment_terms": "net 30 from invoice date",
+    "retainage": "5% max",
+    "warranty_term": "1 year",
+    "auto_limit": "$500,000",
+    "umbrella_limit": "$2,000,000",
+    "requires_completed_ops_ai": false,
+    "change_order_method": "verbal authorization with signed ticket same day",
+    "risk_flags": [
+      "payment_terms_deviation",
+      "lower_auto_limit",
+      "lower_umbrella_limit",
+      "shorter_warranty",
+      "superseding_standard_terms",
+      "verbal_change_work"
+    ]
+  },
+  "03_Lakeshore_Supply_Agreement_and_Pricing.docx": {
+    "document_type": "supplier_agreement_pricing_schedule",
+    "party_name": "Lakeshore Building Supply Co.",
+    "project_name": null,
+    "pricing_model": "unit_pricing",
+    "contract_value": null,
+    "payment_terms": "net 20",
+    "retainage": null,
+    "warranty_term": "pass-through only",
+    "auto_limit": null,
+    "umbrella_limit": null,
+    "requires_completed_ops_ai": null,
+    "change_order_method": null,
+    "risk_flags": [
+      "unit_price_structure",
+      "short_quote_validity",
+      "fob_dock",
+      "pass_through_warranty",
+      "price_escalation"
+    ]
+  },
+  "04_Midwest_Mechanical_MSA_and_Work_Authorization.docx": {
+    "document_type": "master_services_agreement",
+    "party_name": "Midwest Mechanical Services, LLC",
+    "project_name": "North Shore Federal Operations Center \u2013 Envelope & MEP Upgrades",
+    "pricing_model": "time_and_material",
+    "contract_value": null,
+    "payment_terms": "invoices due 15 days from receipt",
+    "retainage": null,
+    "warranty_term": "12 months",
+    "auto_limit": "$1,000,000",
+    "umbrella_limit": "$3,000,000",
+    "requires_completed_ops_ai": false,
+    "change_order_method": "email direction from PM or superintendent",
+    "risk_flags": [
+      "payment_terms_deviation",
+      "time_and_material",
+      "lower_umbrella_limit",
+      "ongoing_ops_only",
+      "shorter_warranty",
+      "email_change_work"
+    ]
+  },
+  "05_ONeill_Insurance_Requirements_Sheet.docx": {
+    "document_type": "internal_insurance_requirement_sheet",
+    "party_name": "O\u2019Neill Contractors, Inc.",
+    "project_name": null,
+    "pricing_model": null,
+    "contract_value": null,
+    "payment_terms": null,
+    "retainage": null,
+    "warranty_term": null,
+    "auto_limit": "$1,000,000 CSL",
+    "umbrella_limit": "$5,000,000",
+    "requires_completed_ops_ai": true,
+    "change_order_method": null,
+    "risk_flags": []
+  },
+  "06_Prairie_Risk_Certificate_Transmittal.docx": {
+    "document_type": "insurance_exception_memo",
+    "party_name": "ABC Roofing & Sheet Metal, LLC / Prairie Risk Advisors",
+    "project_name": "North Shore Federal Operations Center \u2013 Envelope & MEP Upgrades",
+    "pricing_model": null,
+    "contract_value": null,
+    "payment_terms": null,
+    "retainage": null,
+    "warranty_term": null,
+    "auto_limit": "$500,000",
+    "umbrella_limit": "$2,000,000",
+    "requires_completed_ops_ai": false,
+    "change_order_method": null,
+    "risk_flags": [
+      "lower_auto_limit",
+      "lower_umbrella_limit",
+      "missing_completed_ops_ai",
+      "primary_noncontributory_not_confirmed",
+      "waiver_subrogation_for_additional_premium",
+      "certificate_information_only"
+    ]
+  },
+  "07_ONeill_Change_Order_Authorization_Form.docx": {
+    "document_type": "internal_change_order_form",
+    "party_name": "ABC Roofing & Sheet Metal, LLC",
+    "project_name": "North Shore Federal Operations Center \u2013 Envelope & MEP Upgrades",
+    "pricing_model": "lump_sum_with_backup",
+    "contract_value": 21800,
+    "payment_terms": null,
+    "retainage": null,
+    "warranty_term": null,
+    "auto_limit": null,
+    "umbrella_limit": null,
+    "requires_completed_ops_ai": null,
+    "change_order_method": "written approval required",
+    "risk_flags": []
+  },
+  "08_ABC_Roofing_Field_Ticket_Change_Request.docx": {
+    "document_type": "vendor_field_ticket",
+    "party_name": "ABC Roofing & Sheet Metal, LLC",
+    "project_name": null,
+    "pricing_model": "estimated_extra_work",
+    "contract_value": 21800,
+    "payment_terms": null,
+    "retainage": null,
+    "warranty_term": null,
+    "auto_limit": null,
+    "umbrella_limit": null,
+    "requires_completed_ops_ai": null,
+    "change_order_method": "verbal field direction; pricing backup to follow",
+    "risk_flags": [
+      "verbal_change_work",
+      "pricing_backup_missing",
+      "potential_schedule_extension"
+    ]
+  }
+}
