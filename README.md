@@ -256,15 +256,15 @@ contractlens-ai/
     └── config.toml
 
 
+---
 
-
-How to Run the Project
-1. Clone the repository
+## How to Run the Project
+### 1. Clone the repository
 
 git clone https://github.com/YOUR_USERNAME/contractlens-ai.git
 cd contractlens-ai
 
-2. Create and activate a virtual environment
+### 2. Create and activate a virtual environment
 Windows PowerShell
 
 python3 -m venv .venv
@@ -275,21 +275,25 @@ macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-4. Add your OpenAI API key
+### 3. Install dependencies
 
-Create a .env file in the project root:
+pip install -r requirements.txt
+
+### 4. Add your OpenAI API key
+
+## Create a .env file in the project root:
 
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_MODEL=gpt-5
 
-5. Run the Streamlit app
+### 5. Run the Streamlit app
 
 python -m streamlit run app.py
 
 
-Recommended Demo Setup
+## Recommended Demo Setup
 
-To demo the app:
+### To demo the app:
 
 upload the synthetic standard subcontract agreement
 upload one or more synthetic vendor/subcontractor documents
@@ -305,11 +309,11 @@ insurance gaps
 non-standard change-order language
 vendor terms that conflict with standard expectations
 
-Positioning Statement
+## Positioning Statement
 
 ContractLens AI is an AI-assisted contract intake and comparison prototype designed for general contractor project support. It helps project teams review differently formatted subcontractor and vendor documents, extract key terms, compare them against a standard structure, and flag major differences or missing items so project managers can move faster with less manual review.
 
-Future Improvements
+## Future Improvements
 Stronger extraction from contract tables and labeled sections
 Better insurance-limit and pricing extraction
 Clause-level comparison
